@@ -1,0 +1,51 @@
+# Build directories
+build/
+bin/
+lib/
+dist/
+
+# Compiled objects
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# IDE
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# Dependencies
+dependencies/SDL2/
+dependencies/glew/
+dependencies/glm/
+
+# CMake
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Executables
+*.exe
+*.app
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups
+*.swp
+*.swo
+*~
+
+# Game assets (optional, if too large)
+# assets/
+
+# Logs
+*.log
